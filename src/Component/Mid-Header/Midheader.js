@@ -23,7 +23,7 @@ const Midheader = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe assumenda,</p>
                         </div></div>
                     </div>
-                    <div className='low-cart'>
+                    <div className='low-cart newcss'>
                         <img width='100%' src={img2} alt="" />
                         <div className='my-3'>
                             <h4>A Good Auto Responder</h4>

@@ -37,3 +37,21 @@
 .low-cart{
     width: 350px;
 }
+.newcss{
+    background-color: rgb(250, 250, 250);
+    padding: 5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+
+
+@media screen and (max-width:560px){
+    .custom{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}

@@ -1,6 +1,6 @@
 .coustom-css{
     background-color: rgb(255, 255, 255);
-    height: 85px;
+   min-height: 85px;
 }
 .nav-css{
     margin-right: 40px;
