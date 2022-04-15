@@ -1,38 +1,50 @@
 [
     {
       "id": "625912d36471391f5e301dbe",
-      "picture": "/breakfast/breakfast6.png",
-      "name": "Gay Robles",
+      "type":"breakfast",
+      "picture": "/breakfast/breakfast5.png",
+      "name": "Chik-bread",
+      "price": "30.5",
       "about": "Mollit amet aliquip veniam aliqua minim cillum officia adipisicing est. Commodo dolor incididunt sint "
     },
-    {
+    { 
       "id": "625912d3eb6a3f3ad286d0cc",
+      "type":"breakfast",
       "picture": "/breakfast/breakfast1.png",
       "name": "Eddie Montgomery",
+      "price": "15.5",
       "about": "Laborum aliqua aute cillum veniam laboris minim voluptate nostrud est dolor et consectetur. "
     },
     {
       "id": "625912d3058f32861ecbff29",
+      "type":"breakfast",
       "picture": "/breakfast/breakfast2.png",
-      "name": "Swanson Herrera",
+      "name": "Swan Herrera",
+      "price": "62.5",
       "about": "Nisi nisi do dolore ea ut ut eiusmod enim voluptate in do consequat tempor."
     },
     {
       "id": "625912d32cc6b6bb1762ee10",
+      "type":"dinner",
       "picture": "/breakfast/breakfast3.png",
-      "name": "Garrett Hendrix",
+      "name": "Gar Hendrix",
+      "price": "43.5",
       "about": "Reprehenderit ex velit nostrud dolore sit amet proident ipsum quis eiusmod ad duis dolore. "
     },
     {
       "id": "625912d3dc1b01c4f3c28177",
+      "type":"dinner",
       "picture": "/breakfast/breakfast4.png",
-      "name": "Trujillo Christensen",
+      "name": "Trujillo ",
+      "price": "50.5",
       "about": "Quis ut et est labore do nulla anim et fugiat aute reprehenderit. Ut irure dolore ipsum "
     },
     {
       "id": "625912d3b6a0759d268afd11",
+      "type":"dinner",
       "picture": "/breakfast/breakfast5.png",
-      "name": "Marilyn Freeman",
+      "name": "Marilyn ",
+      "price": "30.5",
       "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
     }
   ]
