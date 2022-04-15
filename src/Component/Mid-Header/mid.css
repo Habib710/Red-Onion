@@ -8,8 +8,32 @@
 
 .css-mid a{
     text-decoration: none;
+    background-color: rgb(253, 253, 253);
+    border: none;
     margin-left: 40px;
     color: rgb(2, 2, 2);
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
+    
+}
+.css-mid a:hover{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-left: 40px;
+    color: rgb(248, 8, 140);
+    transition: .4s;
+    font-weight: 600;
+    font-size: 20px;
+    
+
+
+}
+.custom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.low-cart{
+    width: 350px;
 }

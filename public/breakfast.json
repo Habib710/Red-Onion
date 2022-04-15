@@ -25,7 +25,7 @@
     },
     {
       "id": "625912d32cc6b6bb1762ee10",
-      "type":"dinner",
+      "type":"breakfast",
       "picture": "/breakfast/breakfast3.png",
       "name": "Gar Hendrix",
       "price": "43.5",
@@ -33,7 +33,7 @@
     },
     {
       "id": "625912d3dc1b01c4f3c28177",
-      "type":"dinner",
+      "type":"breakfast",
       "picture": "/breakfast/breakfast4.png",
       "name": "Trujillo ",
       "price": "50.5",
@@ -41,10 +41,108 @@
     },
     {
       "id": "625912d3b6a0759d268afd11",
-      "type":"dinner",
+      "type":"breakfast",
       "picture": "/breakfast/breakfast5.png",
       "name": "Marilyn ",
       "price": "30.5",
       "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    
+    {
+      "id": "6259101c4f3c28177",
+      "type":"lunch",
+      "picture": "/lunch/lunch1.png",
+      "name": "Trujillo ",
+      "price": "50.5",
+      "about": "Quis ut et est labore do nulla anim et fugiat aute reprehenderit. Ut irure dolore ipsum "
+    },
+    {
+      "id": "625d268afd11",
+      "type":"lunch",
+      "picture": "/lunch/lunch2.png",
+      "name": "Marilyn ",
+      "price": "30.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "64f3c28177",
+      "type":"lunch",
+      "picture": "/lunch/lunch3.png",
+      "name": "Trujillo ",
+      "price": "50.5",
+      "about": "Quis ut et est labore do nulla anim et fugiat aute reprehenderit. Ut irure dolore ipsum "
+    },
+    {
+      "id": "625912d3b6a07",
+      "type":"lunch",
+      "picture": "/lunch/lunch4.png",
+      "name": "Marilyn ",
+      "price": "85.00",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "627",
+      "type":"lunch",
+      "picture": "/lunch/lunch5.png",
+      "name": "Trujillo ",
+      "price": "50.5",
+      "about": "Quis ut et est labore do nulla anim et fugiat aute reprehenderit. Ut irure dolore ipsum "
+    },
+    {
+      "id": "3b6a759d268afd11",
+      "type":"lunch",
+      "picture": "/lunch/lunch6.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "3b679d268d1",
+      "type":"dinner",
+      "picture": "/dinner/dinner1.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "ad1",
+      "type":"dinner",
+      "picture": "/dinner/dinner2.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "d268ad1",
+      "type":"dinner",
+      "picture": "/dinner/dinner3.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "3b6a79d1",
+      "type":"dinner",
+      "picture": "/dinner/dinner4.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "36a9d268ad1",
+      "type":"dinner",
+      "picture": "/dinner/dinner5.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
+    },
+    {
+      "id": "3b6a759d2",
+      "type":"dinner",
+      "picture": "/dinner/dinner6.png",
+      "name": "Marilyn ",
+      "price": "95.5",
+      "about": "Tempor aliqua anim consequat commodo sunt ipsum consequat ad adipisicing elit sit."
     }
+  
   ]

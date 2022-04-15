@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Button, FormControl, InputGroup } from 'react-bootstrap';
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Breakfast from '../Brackfast/Breakfast';
 import Dinner from '../Dinner/Dinner';
 import Lunch from '../Lunch/Lunch';
@@ -9,6 +9,8 @@ import Midheader from '../Mid-Header/Midheader';
 import './Home.css'
 
 const Home = () => {
+    const [seletcfood,setseletcfood]=useState([]);
+  
 
 
     const [foods,setfoods]=useState([])
@@ -16,10 +18,33 @@ const Home = () => {
         fetch('breakfast.json')
         .then(res=>res.json())
         .then(data=>setfoods(data));
-
-
+        
 
     },[])
+
+    const hendel=()=>{
+       let myfoods = foods.filter(function(food){
+           return food.type==="dinner"
+       });
+       setseletcfood(myfoods)
+
+    }
+    const hendelbreak=()=>{
+       let myfoods = foods.filter(function(food){
+           return food.type==="breakfast"
+       });
+       setseletcfood(myfoods)
+
+    }
+    
+    const hendellunch=()=>{
+       let myfoods = foods.filter(function(food){
+           return food.type==="lunch"
+       });
+       setseletcfood(myfoods)
+
+    }
+    
 
 
     return (
@@ -43,52 +68,34 @@ const Home = () => {
     </InputGroup>
      </div>     
           </header>
+         
 
 
 
           <div>
-              <Midheader></Midheader>
-              <section>
+              <div className='css-mid'>
+
+              <Link onClick={hendelbreak} to='#breakfast'>Breakfast</Link>
+              <Link onClick={hendellunch} to='#breakfast' >Lunch</Link>
+              <Link onClick={hendel} to='#breakfast'>Dinner</Link>
+
+              </div>
+              <section className='container'>
           
                   <div id='breakfast ' className='brak-css my-4'>
                       
-
-
                       {
-                          foods.map(food=><Breakfast key={food.id} data={food}></Breakfast>)
+                          seletcfood.length?
+                          seletcfood.map(food=><Breakfast key={food.id} data={food}></Breakfast>)
+                          :  
+                          foods.slice(0,6).map(food=><Breakfast key={food.id} data={food}></Breakfast>)
+
                       }
 
-                  </div>
-                  <div>
-                      <h2>Lunch</h2>
-                  </div>
-
-                  <div id='lunch' className='brak-css my-4'>
-
-                  {
-                          foods.map(food=><Breakfast key={food.id} data={food}></Breakfast>)
-                      }
-
-                  </div>
-                  <div>
-                      <h1>Dinner</h1>
-                  
-
-                  <div id='dinner' className='brak-css my-4'>
-
-                  {
-                          foods.map(food=><Breakfast key={food.id} data={food}></Breakfast>)
-                      }
-
-                  </div></div>
+                  </div> 
+                  <Midheader></Midheader>  
 
               </section>
-              
-                
-
-
-
-
           </div>
         </div>
     );
