@@ -1,0 +1,15 @@
+.css-mid{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
+.css-mid a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(2, 2, 2);
+    font-weight: 600;
+    font-size: 20px;
+}

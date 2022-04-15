@@ -1,0 +1,25 @@
+.coustom-css{
+    background-color: rgb(255, 255, 255);
+    height: 85px;
+}
+.nav-css{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    
+    
+}
+.singup button{
+    background-color: rgb(249, 25, 68);
+    border-radius: 25px;
+    padding: 3px 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid white;
+}
+.singup button:hover{
+    background-color: rgb(211, 5, 84);
+}
